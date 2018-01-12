@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="theme-color" content="#000000">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/engage-and-retain/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>　金蚂蚁装修网</title>
+    <script>
+      !function(e,t){function i(){for(var e=navigator.userAgent,t=new Array("Android","iPhone","SymbianOS","Windows Phone","iPad","iPod"),i=!0,a=0;a<t.length;a++)if(e.indexOf(t[a])>0){i=!1;break}return i}function a(){var t=o.getBoundingClientRect().width;i()&&t<2047&&(t=t>540?540:t);var a=t/7.5;o.style.fontSize=a+"px",c.rem=e.rem=a}var r,n=e.document,o=n.documentElement,m=n.querySelector('meta[name="viewport"]'),d=n.querySelector('meta[name="flexible"]'),s=0,l=0,c=t.flexible||(t.flexible={});if(m){console.warn("将根据已有的meta标签来设置缩放比例");var p=m.getAttribute("content").match(/initial\-scale=([\d\.]+)/);p&&(l=parseFloat(p[1]),s=parseInt(1/l))}else if(d){var u=d.getAttribute("content");if(u){var f=u.match(/initial\-dpr=([\d\.]+)/),h=u.match(/maximum\-dpr=([\d\.]+)/);f&&(s=parseFloat(f[1]),l=parseFloat((1/s).toFixed(2))),h&&(s=parseFloat(h[1]),l=parseFloat((1/s).toFixed(2)))}}if(!s&&!l){e.navigator.appVersion.match(/android/gi);var v=e.navigator.appVersion.match(/iphone/gi),b=(e.navigator.appVersion.match(/ipad/gi),e.devicePixelRatio);l=1/(s=v?b>=3&&(!s||s>=3)?3:b>=2&&(!s||s>=2)?2:1:1)}if(o.setAttribute("data-dpr",s),!m)if((m=n.createElement("meta")).setAttribute("name","viewport"),m.setAttribute("content","initial-scale="+l+", maximum-scale="+l+", minimum-scale="+l+", user-scalable=no"),o.firstElementChild)o.firstElementChild.appendChild(m);else{var g=n.createElement("div");g.appendChild(m),n.write(g.innerHTML)}e.addEventListener("resize",function(){clearTimeout(r),r=setTimeout(a,300)},!1),e.addEventListener("pageshow",function(e){e.persisted&&(clearTimeout(r),r=setTimeout(a,300))},!1),"complete"===n.readyState?n.body.style.fontSize=14*s+"px":n.addEventListener("DOMContentLoaded",function(e){n.body.style.fontSize=14*s+"px"},!1),a(),c.dpr=e.dpr=s,c.refreshRem=a,c.rem2px=function(e){var t=parseFloat(e)*this.rem;return"string"==typeof e&&e.match(/rem$/)&&(t+="px"),t},c.px2rem=function(e){var t=parseFloat(e)/this.rem;return"string"==typeof e&&e.match(/px$/)&&(t+="rem"),t}}(window,window.lib||(window.lib={}));
+
+// var _hmt = _hmt || [];
+// (function() {
+//   var hm = document.createElement("script");
+//   hm.src = "https://hm.baidu.com/hm.js?db76959a6d1478f607ce8345d91e1012";
+//   var s = document.getElementsByTagName("script")[0]; 
+//   s.parentNode.insertBefore(hm, s);
+// })();
+
+   </script>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+</html>

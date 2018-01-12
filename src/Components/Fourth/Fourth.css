@@ -1,0 +1,50 @@
+.Fourth .bg {
+  width: 7.5rem;
+  height: auto;
+  position: absolute;
+  z-index: 1;
+}
+.Fourth input {
+  border: none;
+}
+.Fourth .center {
+  position: relative;
+  z-index: 3;
+  padding-top: 5.5rem;
+  width: 6.5rem;
+  margin: 0 auto;
+}
+.Fourth .center > p {
+  color: red;
+  padding-top: 1rem;
+  text-align: center;
+}
+.Fourth .center .bottom {
+  width: 100%;
+  padding-top: 2rem;
+  position: relative;
+  z-index: 4;
+  float: left;
+}
+.Fourth .center .bottom button {
+  border: none;
+}
+.Fourth .center .bottom .pre {
+  background: url(pre.jpg) no-repeat;
+  background-size: contain;
+  margin-right: 0.5rem;
+  width: 3rem;
+  height: 0.67rem;
+  float: left;
+}
+.Fourth .center .bottom .next {
+  background: url(end.png) no-repeat;
+  background-size: contain;
+  width: 3rem;
+  height: 0.67rem;
+  float: left;
+}
+.Fourth .am-list-item {
+  height: 0.9rem;
+  line-height: 0.9rem;
+}

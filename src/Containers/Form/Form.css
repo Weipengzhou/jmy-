@@ -1,0 +1,53 @@
+.Form .picker-list .am-list-item .am-list-line .am-list-extra {
+  flex-basis: initial;
+}
+.Form .test {
+  position: relative;
+  border-bottom: 0;
+}
+.Form .test:after {
+  content: '';
+  position: absolute;
+  background-color: #ddd;
+  display: block;
+  z-index: 1;
+  top: auto;
+  right: auto;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 1PX;
+  -webkit-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  -webkit-transform: scaleY(0.5);
+  -ms-transform: scaleY(0.5);
+  transform: scaleY(0.5);
+}
+.Form .am-list-extra input {
+  width: 1.6rem;
+  text-align: center;
+  color: #888;
+  background: none;
+  border: none;
+}
+.Form .subclick {
+  width: 1.45rem;
+  height: 1.45rem;
+  border-radius: 1.45rem;
+  border: 0.15rem solid #f7e9d0;
+  background-color: #ebac30;
+  font-size: 0.24rem;
+  margin: 0.3rem auto;
+  display: block;
+}
+.Form > p {
+  font-size: 0.18rem;
+  color: #dd5755;
+  text-align: center;
+}
+.Form .am-list-item {
+  background-color: #c6e7f9!important;
+  height: 0.9rem;
+  line-height: 0.9rem;
+}

@@ -1,0 +1,165 @@
+.Winning {
+  width: 7.5rem;
+  height: 23.1rem;
+  background: url(cj_bj.jpg) no-repeat;
+  background-size: cover;
+}
+.Winning .Rotarytable {
+  width: 7.5rem;
+  height: 9.2rem;
+}
+.Winning .lastnew {
+  position: relative;
+}
+.Winning .lastnew .new {
+  position: absolute;
+  height: 0.3rem;
+  width: 0.9rem;
+  top: -0.15rem;
+  left: 0.3rem;
+  background-color: #ec6c6c;
+  color: #FFF;
+  font-size: 0.24rem;
+  z-index: 2;
+  text-align: center;
+  line-height: 0.3rem;
+}
+.Winning .lastnew .slider-frame {
+  width: 7.3rem;
+  height: 0.9rem!important;
+  line-height: 0.8rem;
+  margin: 0 auto!important;
+  background: url(title_bg.png) center;
+  border-radius: 10px;
+  position: relative;
+  background-size: cover;
+}
+.Winning .lastnew .v-item p {
+  float: left;
+  font-size: 0.22rem;
+  text-align: center;
+}
+.Winning .lastnew .v-item .one {
+  width: 1.3rem;
+}
+.Winning .lastnew .v-item .two {
+  width: 1.33rem;
+}
+.Winning .lastnew .v-item .three {
+  width: 1.6rem;
+}
+.Winning .lastnew .v-item .four {
+  width: 1rem;
+}
+.Winning .lastnew .v-item h2 {
+  width: 2.05rem;
+  font-size: 0.23rem;
+  color: red;
+  float: left;
+  text-align: center;
+}
+.Winning .list {
+  width: 7.5rem;
+  height: 4.5rem;
+  position: relative;
+}
+.Winning .list .title {
+  width: 7.3rem;
+  height: 1rem;
+  position: absolute;
+  left: 0.1rem;
+  border-bottom: 0.01rem solid #767777;
+}
+.Winning .list .title img {
+  width: 3.28rem;
+  height: 1.2rem;
+  position: absolute;
+  top: -0.34rem;
+  left: 50%;
+  margin-left: -1.64rem;
+  z-index: 2;
+}
+.Winning .list .slider {
+  padding-top: 1rem;
+  background: url(cj_bg.png) 0 0.1rem no-repeat;
+  background-size: cover!important;
+  width: 7.3rem!important;
+  margin: 0.4rem auto ;
+}
+.Winning .list .slider-frame {
+  width: 7.3rem;
+  height: 3.5rem!important;
+  margin: 0 auto!important;
+  position: relative;
+  padding-bottom: 0.2rem;
+}
+.Winning .list .v-item {
+  line-height: 0.56rem;
+  height: 0.56rem;
+}
+.Winning .list .v-item p {
+  float: left;
+  font-size: 0.22rem;
+  text-align: center;
+}
+.Winning .list .v-item .one {
+  width: 1.3rem;
+}
+.Winning .list .v-item .two {
+  width: 1.33rem;
+}
+.Winning .list .v-item .three {
+  width: 1.6rem;
+}
+.Winning .list .v-item .four {
+  width: 1rem;
+}
+.Winning .list .v-item h2 {
+  width: 2.05rem;
+  font-size: 0.23rem;
+  color: red;
+  float: left;
+  text-align: center;
+}
+.Winning .about {
+  position: relative;
+  width: 100%;
+}
+.Winning .about h2 {
+  width: 2.6rem;
+  height: 0.4rem;
+  text-align: center;
+  line-height: 0.4rem;
+  position: relative;
+  font-size: 0.26rem;
+  margin: 0.5rem auto 0.4rem auto;
+  color: #fff;
+}
+.Winning .about h2:before,
+.Winning .about h2:after {
+  content: "";
+  /*:before和:after必带技能，重要性为满5颗星*/
+  display: block;
+  position: absolute;
+  /*日常绝对定位*/
+  top: 0.2rem;
+  width: 0.55rem;
+  height: 0.02rem;
+  background-color: #f6bc4c;
+}
+.Winning .about h2:before {
+  left: 0;
+}
+.Winning .about h2:after {
+  right: 0;
+}
+.Winning .about .text {
+  width: 6.5rem;
+  height: 3.84rem;
+  margin: 0 auto 0 0.8rem;
+}
+.Winning .about .text p {
+  text-indent: -0.4rem;
+  color: #FFF;
+  padding-bottom: 0.1rem;
+}
